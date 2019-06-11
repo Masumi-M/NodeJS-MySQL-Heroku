@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1><%= title %></h1>
+
+  <div id="createForm">
+    <form action="/" method="post">
+      <input type="text" name="todo_content" value="">
+      <button type="submit">
+        Submit
+      </button>
+    </form>
+  </div>
+
+  <div id="todoList">
+    <% for(var i=0; i < todos.length;i++) { %>
+    <div><%= todos[i].name %></div>
+    <% } %>
+  </div>
+</body>
+
+</html>
