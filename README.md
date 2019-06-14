@@ -36,4 +36,4 @@
 6. HerokuのDatabaseと連携する
 
 ## リンク先
-[NodeJS + MySQL + Heroku - umi-mori.jp]()
+[NodeJS + MySQL + Heroku - umi-mori.jp](https://www.umi-mori.jp/article/nodejs/nodejs_mysql_heroku.php)
